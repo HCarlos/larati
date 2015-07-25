@@ -1,0 +1,32 @@
+#!/bin/bash
+# -*- ENCODING: UTF-8 -*-
+
+git config --global user.email "r0@tecnointel.mx"
+git config --global user.name "HCarlos"
+
+git branch mod-larati
+git checkout mod-larati
+
+## INICIO: Aquí se deben agregar los archivos a modificar
+
+git add .
+
+## git add app/views/Corevat/Avaluos/_general.blade.php
+## git add app/views/Corevat/Avaluos/create.blade.php
+
+## FIN: 
+
+git commit -m "Va de Nuevo Reload"
+
+git checkout Stage
+
+git pull origin Stage
+
+git merge mod-larati
+
+git branch -d mod-larati
+
+git push -u origin Stage
+
+exit
+
