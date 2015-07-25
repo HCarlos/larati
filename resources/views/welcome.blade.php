@@ -33,12 +33,16 @@
             .title {
                 font-size: 96px;
             }
+            .titleSpan {
+                font-size: 48px;
+            }
         </style>
     </head>
     <body>
         <div class="container">
             <div class="content">
-                <div class="title">Laravel 5</div>
+                <div class="title">Laravel 5</div> 
+                <div class="titleSpan">by DevCH</div>
             </div>
         </div>
     </body>
