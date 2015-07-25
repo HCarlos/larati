@@ -42,7 +42,7 @@
         <div class="container">
             <div class="content">
                 <div class="title">Laravel 5</div> 
-                <div class="titleSpan">by DevCH {{date('Y')}}@</div>
+                <div class="titleSpan">by DevCH {{date('Y')}} ° </div>
             </div>
         </div>
     </body>
