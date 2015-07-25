@@ -43,6 +43,7 @@
             <div class="content">
                 <div class="title">Laravel 5</div> 
                 <div class="titleSpan">by DevCH {{date('Y')}} <small>&copy;</small> :)</div>
+                <div class="titleSpan"><small>Iniciando Sistema...</small></div>
             </div>
         </div>
     </body>
