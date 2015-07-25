@@ -26,7 +26,7 @@ git merge mod-larati
 
 git branch -d mod-larati
 
-git push -u origin Stage
+git push -u origin Stage --force
 
 exit
 
